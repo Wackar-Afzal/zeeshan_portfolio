@@ -1,0 +1,83 @@
+.contact_us{
+    padding: 5rem 10rem 2rem 10rem;
+    gap: 7rem;
+}
+
+.lets_talk{
+    font-size: 7rem;
+}
+
+.input_container{
+    height: 4rem;
+    width: 45%;
+  }
+
+ .parent_to_inputs{
+    gap: 7rem;
+ }
+.botton_line {
+    height: 1.5px;
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+  }
+  
+  /* Input focus styles */
+  .input_container input:focus + .botton_line {
+    width: 100%;
+  }
+
+  .error_para{
+    margin-top: 1rem;
+    color: rgb(193, 22, 22);
+  }
+
+  @media screen and (max-width: 1050px){
+
+    .contact_us{
+      padding: 2rem;
+      gap: 7rem;
+  }
+  .input_container{
+    width: 45%;
+  }
+
+  
+
+}
+@media screen and (max-width: 850px){
+
+  .contact_us{
+    padding: 2rem;
+    gap: 4rem;
+}
+.input_container{
+  width: 65%;
+}
+.parent_to_inputs{
+  gap: 4rem;
+}
+
+
+}
+@media screen and (max-width: 700px){
+
+  .contact_us{
+    padding: 2rem;
+    gap: 4rem;
+}
+.input_container{
+  width: 80%;
+}
+
+}
+@media screen and (max-width: 400px){
+
+  .input_container{
+    width: 100%;
+  }
+  .contact_us{
+    padding: .5rem;
+}
+  
+}

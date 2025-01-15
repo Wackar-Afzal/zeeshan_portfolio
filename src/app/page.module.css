@@ -1,0 +1,72 @@
+.Hero_Section{
+    height: 90vh;
+}
+.Hero_container{
+    height: 35vh;
+    margin-bottom: 2rem;
+    padding: 6rem 0rem;
+}
+.hero_subtitle {
+    color: #fff;
+    font-size: 18px;
+    width:70vw;
+    margin-top: 2.5rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.hero_subtitle_skill_section{
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    opacity: 0.4;
+}
+
+.DownText_heading{
+    opacity: 0.4 !important;
+}
+
+.downTextMainContainer{
+    margin: 5rem 0rem 6rem 0rem;
+}
+
+.SkillCoverContainer{
+    margin: 6rem 0rem 3rem 0rem;
+}
+.banner_bottom_bar{
+    border-bottom: 1px solid rgb(209, 207, 207);
+    padding-bottom: 2rem;
+}
+@media screen and (max-width: 860px){
+
+    .banner_bottom_bar{
+        flex-direction: column-reverse !important;
+        justify-content: center;
+        align-items: center;
+        gap:2rem !important;
+    }
+
+}
+@media screen and (max-width: 700px){
+
+    .Hero_Section{
+        height: auto;
+    }
+    .Hero_container{
+        height: auto;
+        margin-bottom: .5rem;
+        padding: 4rem 0rem 0rem 0rem;
+    }
+    .hero_subtitle {
+        width:100%;
+        margin: 2rem 0rem;
+    }
+
+}
+@media screen and (max-width: 450px){
+.banner_bottom_bar{
+    flex-direction: column-reverse !important;
+    justify-content: center;
+    align-items: center;
+}
+}

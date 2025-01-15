@@ -1,0 +1,38 @@
+
+.hero-title {
+    position: relative;
+    overflow: visible;
+    white-space: nowrap;
+    cursor: default;
+}
+.hero-title div {
+    display: inline-block;
+}
+.hero-title span {
+    box-sizing: border-box;
+    display: inline-block;
+    transform-origin: bottom center;
+    margin-top: 0;
+    min-width: 3vw;
+    font-size: calc(8rem + 12vw);
+    line-height: calc(8rem + 10vw);
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+.primary-font-title {
+    text-transform: lowercase;
+    font-weight: 900;
+}
+/* .hero-title {
+    font-size: calc(1rem + 22.15vw);
+    line-height: calc(1rem + 20.5vw);
+} */
+
+@media screen and (max-width: 400px){
+    .hero-title span {
+        min-width: 3vw;
+        font-size: calc(5rem + 12vw);
+        line-height: calc(5rem + 10vw);
+        letter-spacing: 0.2rem;
+    }
+}

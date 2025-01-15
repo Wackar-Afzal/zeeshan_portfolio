@@ -1,0 +1,116 @@
+
+  .section {
+    height: 75vh;
+    font-size: 2rem;
+    z-index: 1;
+    background-position: top center;
+    /* background-color: white; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    margin-bottom:3rem;
+    display: flex;
+
+  }
+  
+  #section1 { 
+    background-image: url("/Home/6.png");
+    background-color: #d1c1af;
+  }
+
+  #section2 { 
+    background-image: url("/studysync/1.png");
+    background-color: #6f7960;
+  }
+
+  
+  #section3 {
+    background-image: url("/violet/1.png");
+    background-color: #b44928;
+    /* background-position: center -200px; */
+
+  }
+
+  #section4 {  
+    background-image: url("/Home/7.jpg");
+    background-color: #d3d4d8;
+
+  }
+
+  .blurred {
+    z-index: 0; /* Sections behind the current section */
+  }
+  
+  .current {
+    z-index: 2; /* The currently active section */
+  }
+
+  .LastSection{
+    position: relative;
+    background-image: url("/aisaas/1.png");
+    background-color: #0c0c0c;
+    background-color: #5f6066;
+    z-index: 1;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    display: flex;
+
+
+  }
+
+  .section:hover  .scroll_section_text{
+opacity: 1;
+  }
+  .LastSection:hover  .scroll_section_text{
+    opacity: 1;
+      }
+  .scroll_section_text{
+    opacity: 0;
+    width: 100%;
+    font-size: 6rem;
+    /* text-shadow: 1px 1px 2px rgb(6, 6, 6); */
+    text-align: center;
+    padding:3rem 2rem 1rem 2rem;
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-weight: bolder !important;
+    background: rgb(12,12,12);
+    background: linear-gradient(180deg, rgba(12,12,12,0.02302170868347342) 19%, rgba(12,12,12,0.7457107843137255) 79%);
+    transition: all .3s linear;
+  }
+
+  .scroll_section_text>div>span{
+    color: #080808;
+    background-color: #faf6f5;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+  }
+
+
+  
+@media screen and (max-width: 600px){
+
+  .scroll_section_text{
+    opacity: 1;
+    background: linear-gradient(180deg, rgba(12,12,12,0.02302170868347342) 9%, rgba(12,12,12,0.7457107843137255) 30%);
+  
+  }
+
+
+}
+  
+@media screen and (max-width: 450px){
+  .scroll_section_text{
+    padding:2rem .5rem;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    height: 20vh;
+    background: linear-gradient(180deg, rgba(12,12,12,0.02302170868347342) 9%, rgba(12,12,12,0.7457107843137255) 19%);
+  }
+
+
+}

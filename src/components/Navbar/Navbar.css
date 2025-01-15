@@ -1,0 +1,31 @@
+.navbar{
+    height: 10vh;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.Navbar_logo{
+  width: 3.6rem;
+}
+.burger {
+    display: inline-block;
+    cursor: pointer;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .burger1, .burger2 {
+    width: 15px;
+    height: 2px;
+    background-color:white;
+    margin: 5px 0;
+    transition: transform 0.3s ease-out;
+  }
+
+
+ 
+
+
+
+  
+
+  

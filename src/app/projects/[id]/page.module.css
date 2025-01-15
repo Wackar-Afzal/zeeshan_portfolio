@@ -1,0 +1,22 @@
+.in_view{
+    opacity: 0; /* Start with opacity 0 */
+    animation: fadeInSlideIn 1s ease-out forwards;
+  }
+  .image_container{
+    overflow: hidden;
+  }
+  @keyframes fadeInSlideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(350px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .out_view{
+    opacity: 0; /* Start with opacity 0 */
+  }
+  

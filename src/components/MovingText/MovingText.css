@@ -1,0 +1,33 @@
+/* components/MenuComponent.module.css */
+
+.menu {
+    position: relative;
+    width: 60px; /* Adjust width as needed */
+    height: 20px; /* Adjust height as needed */
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .menuItem1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: translateY(0%);
+    transition: transform 0.3s ease; /* Smooth transition for vertical movement */
+  }
+  .menuItem2 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    transform: translateY(100%);
+    transition: transform 0.3s ease; /* Smooth transition for vertical movement */
+  }
+  
+  .menu:hover .menuItem1 {
+    transform: translateY(-100%); /* Move menu 1 up on hover */
+  }
+  
+ 
+  .menu:hover .menuItem2 {
+    transform: translateY(0); /* Move menu 2 into view on hover */
+  }
