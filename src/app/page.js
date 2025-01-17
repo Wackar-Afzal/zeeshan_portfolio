@@ -168,7 +168,7 @@ export default function Home() {
       <div className="flex_row gap1rem wrap" >
       {[1,10,9,7,8,6,11,12].map((item,i)=>{
         return <div  key={i} style={{width:"3rem"}}>
-          <img src={`/tools/${item}.png`} />
+          <img src={`/tools/${item}.png`} alt="tool"/>
         </div>
       })}
       </div>

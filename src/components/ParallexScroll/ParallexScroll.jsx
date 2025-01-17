@@ -10,7 +10,7 @@ const ParallaxEffect = ({data}) => {
     {data.map((obj,i)=>{ return  <div key={i}    className={` parallax_box` } >
         <Link href={`/projects/${obj.id}`}>
         <div className="parallax_box_image width100">
-        <img src={obj.img}/>
+        <img src={obj.img} alt="project"/>
         </div>
 
         <div className="flex_column  parralex_effect_text"> 

@@ -10,9 +10,9 @@ const Navbar = ({type}) => {
         <div className='Navbar_logo'>
           {
             type==="black"?
-        <img src="http://clapat.ro/themes/montoya/images/logo.png" alt="" />
+        <img src="http://clapat.ro/themes/montoya/images/logo.png" alt="logo" />
             :
-        <img src="http://clapat-themes.com/wordpress/montoya/wp-content/themes/montoya/images/logo-white.png" alt="" />
+        <img src="http://clapat-themes.com/wordpress/montoya/wp-content/themes/montoya/images/logo-white.png" alt="logo" />
 
 
           }
