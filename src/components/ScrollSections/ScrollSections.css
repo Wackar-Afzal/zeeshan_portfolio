@@ -14,25 +14,25 @@
   }
   
   #section1 { 
-    background-image: url("/Home/6.png");
+    /* background-image: url("/Home/6.png"); */
     background-color: #d1c1af;
   }
 
   #section2 { 
-    background-image: url("/studysync/1.png");
+    /* background-image: url("/studysync/1.png"); */
     background-color: #6f7960;
   }
 
   
   #section3 {
-    background-image: url("/violet/1.png");
+    /* background-image: url("/violet/1.png"); */
     background-color: #b44928;
     /* background-position: center -200px; */
 
   }
 
   #section4 {  
-    background-image: url("/Home/7.jpg");
+    /* background-image: url("/Home/7.jpg"); */
     background-color: #d3d4d8;
 
   }
@@ -47,8 +47,7 @@
 
   .LastSection{
     position: relative;
-    background-image: url("/aisaas/1.png");
-    background-color: #0c0c0c;
+    /* background-image: url("/aisaas/1.png"); */
     background-color: #5f6066;
     z-index: 1;
     background-position: top center;

@@ -17,8 +17,8 @@
   .parallax_box {
     position: relative;
     cursor: pointer;
-   width: 30%;
-   min-width: 17rem;
+    width: 30%;
+    min-width: 17rem;
     box-sizing: border-box;
 
   }

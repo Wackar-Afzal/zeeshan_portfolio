@@ -1,6 +1,12 @@
 .Hero_Section{
     height: 90vh;
 }
+.pt15vh{
+    padding-top: 15vh;
+}
+.blackclr{
+    color:black;
+}
 .Hero_container{
     height: 35vh;
     margin-bottom: 2rem;
@@ -14,6 +20,15 @@
     text-align: center;
     opacity: 0.4;
 }
+.hero_subtitle_projects {
+    color:black;
+    font-size: 18px;
+    width:70vw;
+    margin-top: 2.5rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
 
 .hero_subtitle_skill_section{
     color: #fff;

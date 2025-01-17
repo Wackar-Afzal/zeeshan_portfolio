@@ -11,6 +11,8 @@ import DownStretchText from '@/components/DownStrechText/DownStrechTExt'
 import SkillCover from "@/components/SkillCover/SkillCover";
 import Footer from '@/components/Footer/Footer'
 import Link from "next/link";
+import { useRouter } from 'next/navigation';
+
 import ContactSection from "@/components/ContactSection/ContactSection";
 export default function Home() {
 
@@ -18,6 +20,7 @@ export default function Home() {
   let mouseEnterFunction = useCursorStore((state) => state.setIsStudioHoverTrue)
   const svgRef = useRef(null);
   const [svgPosition, setSvgPosition] = useState({ x: "", y: "" });
+  const router = useRouter();
 
   const handleMouseEnter = () => {
     handleScroll()
@@ -163,7 +166,7 @@ export default function Home() {
     {/* <p className={`${styles.hero_subtitle_skill_section}`}>From sketches to finished products, explore the evolution of my designs.</p> */}
 
       <div className="flex_row gap1rem wrap" >
-      {[1,10,9,7,8,6].map((item,i)=>{
+      {[1,10,9,7,8,6,11,12].map((item,i)=>{
         return <div  key={i} style={{width:"3rem"}}>
           <img src={`/tools/${item}.png`} />
         </div>
@@ -176,13 +179,9 @@ export default function Home() {
 
     <div className={`test flex_column gap2rem ${styles.downTextMainContainer}`}>
       <p className={`${styles.DownText_heading, styles.hero_subtitle_skill_section}`}>Curious about my design evolution and the projects I&#39;ve built from scratch? Click here to explore my story.</p>
-      <div className={`flex_row gap2rem `} onMouseEnter={mouseEnterFunction} onMouseLeave={mouseLeaveFunction}>
-      <Link href="/about">
+      <div className={`flex_row gap2rem `} onMouseEnter={mouseEnterFunction} onMouseLeave={mouseLeaveFunction}  onClick={()=>{router.push('/about');mouseLeaveFunction()}}>
       <DownStretchText text="MY"  color="white"/>
-      </Link>
-      <Link href="/about">
       <DownStretchText text="STORY"  color="white"/>
-      </Link>
       </div>
     </div>
 
