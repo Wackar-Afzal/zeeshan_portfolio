@@ -8,14 +8,14 @@ const Navbar = ({type}) => {
   return (
     <div className='flex_row_spaced_between navbar'>
         <div className='Navbar_logo'>
-          {
+          {/* {
             type==="black"?
         <img src="http://clapat.ro/themes/montoya/images/logo.png" alt="logo" />
             :
         <img src="http://clapat-themes.com/wordpress/montoya/wp-content/themes/montoya/images/logo-white.png" alt="logo" />
 
 
-          }
+          } */}
         </div>
         <div className='flex_row gap2rem'>
         <Link href="/contact-us">
